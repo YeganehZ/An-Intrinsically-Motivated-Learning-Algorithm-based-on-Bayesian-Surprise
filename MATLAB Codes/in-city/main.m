@@ -4,6 +4,7 @@ clear all
 % This program implements the system performance of our proposed learning
 % algorithm based on the Expectation of Bayesian Surprise for the in-city 
 % driving scenario with constant jerk
+% run the Making_FileConsjerk file first and than run the main file
 
 K=70;  % time index 
 MC=1;  % number of Monte Carlo runs

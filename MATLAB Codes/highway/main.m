@@ -4,10 +4,11 @@ clear all
 % This program implements the system performance of our proposed learning
 % algorithm based on the Expectation of Bayesian Surprise for the highway 
 % driving scenario with constant acceleration 
+% run the Making_xMC file first and than run the main file
 
 
 K=100;  % time index 
-MC=1;  % number of Monte Carlo runs
+MC=100;  % number of Monte Carlo runs
 
 delta=0.1; % sample time
 q=0.01;    % state noise variance
